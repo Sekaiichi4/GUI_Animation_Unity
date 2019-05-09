@@ -1,1 +1,1 @@
-# unityMenuTutorial
+# Unity GUI animation testing project
