@@ -676,6 +676,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7630290914019440839, guid: 34dc160e6f59257408f839b66a484993,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5621840007490076733, guid: 34dc160e6f59257408f839b66a484993,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ButtonPress
+      objectReference: {fileID: 0}
+    - target: {fileID: 1427757722428284399, guid: 34dc160e6f59257408f839b66a484993,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34dc160e6f59257408f839b66a484993, type: 3}
 --- !u!1001 &2308972504189301112

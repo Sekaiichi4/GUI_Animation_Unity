@@ -13,15 +13,19 @@ public class RadialButton : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void ExpandButton()
+    public void ButtonPress()
     {
-        expanded = true;
-        //animator.SetBool ("pressed", true);
+        Debug.Log("PRESSED");
+        if(!expanded)
+        {
+            expanded = true;
+            animator.SetBool ("pressed", true);
+        }
+        else
+        {
+            expanded = false;
+            animator.SetBool ("pressed", false);
+        }
     }
 
-    public void ShrinkButton()
-    {
-        expanded = false;
-        //animator.SetBool ("pressed", false);
-    }
 }
